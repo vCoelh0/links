@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    /*variaveis*/
+    
+    --bg-color: #EDF2FF;
+    --text-color: #00082f;
+    --primary-color:#051e83;
+    --primary-color-dark:#1634ce;
+  }
+  
+  body.dark {
+    background-image: url(morales.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    --bg-color: #082ff3;
+    --text-color: #ffffff;
+   
+  }
+  body.pink {
+    --bg-color: #FFF0F6;
+    --text-color: #1f000b;
+    --primary-color: #D6336C;
+    --primary-color-dark: #A61E4D;
+  }
+  
+  body.porple {
+     --bg-color: #6114a0;
+    --text-color: #ffffff;
+    --primary-color: #5f038d;
+    --primary-color-dark: #7f0aa0;
+  }
+  body{
+    background: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+  .container {
+  
+    text-align: center;
+    width: 300px; 
+    margin: 60px auto;
+  }
+  img{
+    width: 100%;
+  }
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: var(--primary-color) 2px solid;
+    padding: 3px;
+  
+  }
+  
+  h1{
+    font-size: 32px;
+  
+    margin-top: 12.5px;
+    margin-bottom: 8px;
+    }
+  
+  p /*username*/{
+    font-family: 'Roboto Mono', monospace;
+    opacity: 0.8;
+    font-size: 18px;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+  p:hover{
+    opacity: 2;
+  }
+  ul {
+    list-style: none;
+    margin: 48px 0;
+  }
+  
+  
+    ul li a {
+      height: 53px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      background: var(--primary-color);
+      text-transform: uppercase;
+      font-size: 14px;
+      color: white;
+      transition: background 400ms;
+  
+      margin-bottom: 16px;
+      border-radius: 6px;
+    }
+    ul li a:hover {
+      background: var(--primary-color-dark);
+    }
+  
+    footer {
+      font-weight: 500;
+      font-size: 12px;
+      opacity: 0.1;
+    
+    }
+    footer:hover{
+      opacity: 1;
+    }
+  
+ 
