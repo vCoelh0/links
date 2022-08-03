@@ -19,6 +19,7 @@
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
+    background-attachment: fixed;
     --bg-color: #082ff3;
     --text-color: #ffffff;
    
